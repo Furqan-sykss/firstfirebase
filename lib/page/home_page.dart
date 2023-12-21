@@ -89,7 +89,7 @@ class _HomePageState extends State<HomePage> {
                 DocumentSnapshot document = furqanList[index];
                 Map<String, dynamic> data =
                     document.data() as Map<String, dynamic>;
-                String furqanText = data['furqan'];
+                String furqanText = data['furqan']; //nama field
                 return ListTile(
                   title: Text(furqanText),
                 );
